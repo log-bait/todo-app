@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+<section class="container-fluid">
+<div class="maindiv">
+<div class="d-flex justify-content-between">
+ <span>
+   <h1 class="text-white">T  O  D  O</h1>
+ </span>
+  <span>
+    <a href="#">
+      <img  src="/images/icon-moon.svg" id="icon" class="moon">
+    </a>
+  </span>
+</div>
+<form>
+  <div class="input-group-text">
+    <input type="checkbox" class="m-1" disabled>
+    <input id="input" type="text" class="form-control p-2" placeholder="Create a new todo..." >
+  </div>
+</form>
+<div class="mt-4">
+  <div>
+    <div  class="todolist"> 
+      <!-- <div class="innerlist">
+
+      </div> -->
+    </div>
+  </div>
+    <div class="ulfooter">
+     <div id="count">
+      <span class="count">0</span> items left
+     </div>
+     <div class="centerlinks d-none d-md-flex">
+      <span id='all'>All</span>
+      <span id="active">Active</span> 
+      <span id="conmplete">Completed</span>
+      </div>
+    <div class="clear">
+     <span id="clear">Clear Completed</span>
+    </div>
+    </div>
+    
+    <div class="ulfooter d-flex d-md-none " id="ulfooter" >
+      <div class="centerlinks2 ">
+        <span id='all-md'>All</span>
+        <span id="active-md">Active</span> 
+        <span id="conmplete-md">Completed</span>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">JeyaPrakash</a>.
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
